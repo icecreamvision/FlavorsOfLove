@@ -5,18 +5,22 @@ h1 {
 }
 body {
   text-align: center;
-  font-family: serif;
+  font-family: 'Concert One', cursive;
 
   /* gradient */
-  background: red; /* For browsers that do not support gradients */
+  background: #efbbff; /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
-  background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -webkit-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,	#d896ff,#efbbff);
   /* For Opera 11.1 to 12.0 */
-  background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -o-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff, #d896ff,#efbbff);
   /* For Fx 3.6 to 15 */
-  background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -moz-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff, #d896ff,#efbbff);
   /* Standard syntax */
-  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  background: linear-gradient(to right, #ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,#d896ff,#efbbff);
+}
+
+h2 {
+  font-size: 300%;
 }
 
 #question {
@@ -27,10 +31,4 @@ body {
 .btn {
   margin-top: 20px;
   font-size: 35px;
-}
-
-h3 {
-  margin-top: 50px;
-  font-size: 50px;
-  font-family: 'Creepster', cursive;
 }
