@@ -1,0 +1,47 @@
+h1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+body {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+
+  /* gradient */
+  background: #efbbff; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,	#d896ff,#efbbff);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff, #d896ff,#efbbff);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff, #d896ff,#efbbff);
+  /* Standard syntax */
+  background: linear-gradient(to right, #ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,#d896ff,#efbbff);
+}
+
+h3 {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#changes {
+	margin-top: 7.5%;
+}
+
+#collapse:hover {
+	text-decoration: none;
+}
+
+#home {
+	font-size: 300%;
+	color: black;
+}
+
+#home:hover {
+	color: gray;
+}
