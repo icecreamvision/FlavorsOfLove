@@ -3,7 +3,7 @@
   <head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link type="text/css" rel= "stylesheet" href="earls.css"  />
-    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
 		<script src="earls.js"></script>
 		<script src="https://use.fontawesome.com/d169024d00.js"></script>
@@ -42,16 +42,17 @@
       </div> <!-- End container -->
 
 		<!-- Change submission -->
-		<h4 id="changes">See something wrong? </h4>
+		<h5 id="changes">See something wrong? </h5>
 
 		<!-- Collapsible Accordian -->
 		<div class="panel-group">
 		  <div class="panel panel-default">
 		    <div class="panel-heading">
-		      <h4 class="panel-title">
+		      <h5 class="panel-title">
 		        <a id="collapse" data-toggle="collapse" href="#collapse1">Help us update!</a>
-		      </h4>
+		      </h5>
 		    </div>
+				<h6>Last Updated: </h6>
 		    <div id="collapse1" class="panel-collapse collapse">
 					<!-- Inner Checkboxes -->
 					<div class="form-check">
@@ -81,15 +82,21 @@
 					</div>
 
 					<i class="fa fa-refresh" aria-hidden="true"></i>
-
 		    </div>
 		  </div>
 		</div>
 
 		<footer>
 			<a href="index.html">
-				<i class="fa fa-home" id="home" aria-hidden="true"></i>
+				<i class="fa fa-home" id="home" data-toggle="tooltip" data-placement="top" title="Home"></i>
 			</a>
 		</footer>
+		
+		<script>
+		$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();
+		});
+		</script>
+
 	</body>
 </html>

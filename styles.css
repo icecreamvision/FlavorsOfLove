@@ -5,8 +5,7 @@ h1 {
 }
 body {
   text-align: center;
-  font-family: 'Concert One', cursive;
-
+  font-family: 'Muli', sans-serif;
   /* gradient */
   background: #efbbff; /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
@@ -31,4 +30,8 @@ h2 {
 .btn {
   margin-top: 20px;
   font-size: 35px;
+}
+
+#earlpic {
+  margin: 2.5%;
 }
