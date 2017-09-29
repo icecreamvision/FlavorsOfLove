@@ -16,7 +16,13 @@ body {
   background: -moz-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff, #d896ff,#efbbff);
   /* Standard syntax */
   background: linear-gradient(to right, #ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,#d896ff,#efbbff);
+
+  height: 100vh;
 }
+html, body {
+    max-width: 100%;
+}
+
 
 h2 {
   font-size: 300%;

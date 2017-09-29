@@ -26,6 +26,11 @@ body {
   background: -moz-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff, #d896ff,#efbbff);
   /* Standard syntax */
   background: linear-gradient(to right, #ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,#d896ff,#efbbff);
+
+	height: 100vh;
+}
+html, body {
+    max-width: 100%;
 }
 
 h3 {
@@ -60,7 +65,8 @@ h6 {
 }
 
 footer {
-	position:fixed;
+	display: block;
+	position:relative;
 	left:0px;
 	bottom:0px;
 	width:100%;
