@@ -1,11 +1,25 @@
 h1 {
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 75px;
+  font-style: italic;
+  font-weight: 900;
 }
+
 body {
   text-align: center;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+html, body {
+    max-width: 100%;
+}
+
+header {
+  margin-top: 2.5%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+
   /* gradient */
   background: #efbbff; /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
@@ -16,16 +30,11 @@ body {
   background: -moz-linear-gradient(left,#ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff, #d896ff,#efbbff);
   /* Standard syntax */
   background: linear-gradient(to right, #ffb3ba,#ffdfba,#ffffba,#baffc9,#bae1ff,#d896ff,#efbbff);
-
-  height: 100vh;
-}
-html, body {
-    max-width: 100%;
 }
 
-
-h2 {
-  font-size: 300%;
+h3 {
+  font-weight: 700;
+  font-style: italic;
 }
 
 #question {
